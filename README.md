@@ -10,7 +10,7 @@ This is a template for Python projects. It includes everything needed for a proj
 ## Setup
 
 1. Clone this repository
-2. Run `poetry install --group dev` to install all dependencies
+2. Run `poetry install --with dev` to install all dependencies
 3. Run `poetry run sourcery login` to login to Sourcery and enable the Sourcery pre-commit hook
 4. Run `poetry run pre-commit install` to install the pre-commit hooks
 5. Run `poetry run pre-commit run --all-files` to run the pre-commit hooks on all files
